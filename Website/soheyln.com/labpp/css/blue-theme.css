@@ -1,0 +1,153 @@
+/* =================================
+Basic Styling
+================================= */ 
+a {
+	color: #008ED6;
+}
+
+input:focus,
+textarea:focus,
+.input-box:focus,
+.textarea-box:focus {
+	border-color: #008ED6;
+}
+
+.subscribe-input:focus {
+	border-color: #008ED6;
+}
+
+::-moz-selection {
+	background: #008ED6;
+}
+
+::selection {
+	background: #008ED6;
+}
+
+/* Background colors */
+.theme-bg{
+	background: #008ED6;
+}
+
+/* Text style */
+
+.text-color-theme {
+	color: #008ED6;
+}
+
+
+/* =================================
+Custom Elements
+================================= */ 
+
+/* Buttons */
+.btn-outlined.btn-theme {
+    color: #008ED6;
+	border-color: #008ED6;
+}
+
+.btn-outlined.btn-theme:hover,
+.btn-outlined.btn-theme:active {
+    background: #008ED6;
+    border-color: #008ED6;
+}
+
+.btn-outlined.btn-white:hover,
+.btn-outlined.btn-white:active {
+    color: #008ED6;
+}
+
+/* =================================
+Header
+================================= */ 
+
+.top-nav-collapse {
+	background: #008ED6;
+}
+
+/* =================================
+Slider
+================================= */ 
+
+.color-overlay {
+	background: rgba(0, 142, 214, 0.85);
+}
+
+/* =================================
+Feature
+================================= */ 
+
+.feature-item .feature-icon {
+	color: #008ED6;
+}
+
+.feature-item .feature-content h4 {
+	color: #008ED6;
+}
+
+
+/* =================================
+Services
+================================= */ 
+
+/* Process */
+.process-item:hover .process-icon {
+	border-color: #008ED6;
+}
+
+.process-item .process-icon {
+	color: #008ED6;
+}
+
+.process-item p {
+	color: #008ED6;
+}
+
+
+/* =================================
+Portfolio
+================================= */
+.portfolio-item-info {
+	background: rgba(0, 142, 214, 0.85);
+}
+
+
+/* =================================
+About Us
+================================= */
+/* The Skills */
+.skill-progress .bar {
+	background-color: #008ED6; 
+}
+
+.team-item .team-info .team-social-icons li a {
+	color: #008ED6;
+}
+
+/* =================================
+Contact Us
+================================= */
+/* Contact Info */
+.contact-icons li .fa {
+	color: #008ED6;
+}
+
+/* Contact form */
+.contact-form input[type=text]:focus, 
+.contact input[type=email]:focus, 
+.contact input[type=password]:focus, 
+.contact textarea:focus {
+	border-color: #008ED6;
+}
+
+.notification .success{
+	color:#008ED6;
+}
+
+/* =================================
+Footer
+================================= */
+
+footer ul.footer-menu li a:hover {
+	color: #008ED6;
+}

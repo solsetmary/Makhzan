@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteRule ^(.*)\.(rar|zip|pdf|apk)$ /download.php?file=$1.$2 [R,L]
+
+RewriteRule ^login/activation/([a-zA-Z0-9_-]+)$ login/activation.php?code=$1
+RewriteRule ^login/activation/([a-zA-Z0-9_-]+)/$ login/activation.php?code=$1
+
+RewriteRule ^query/do/(.*) myIP/status.php?myquery=$1 [B,NE]
+RewriteRule ^query/get/([^/]+) myIP/getimages.php?myquery=$1
+
+RewriteRule ^get/live/labs/(.*) scripts/getlabslive.php
+RewriteRule ^get/new/images/(.*) scripts/getlabimages.php
+
+RewriteRule ^check/internet/connection/(.*) myIP/index.php

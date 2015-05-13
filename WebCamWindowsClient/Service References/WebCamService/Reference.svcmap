@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f4d68800-ceca-4107-b58c-3343744c2e93" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8732/Design_Time_Addresses/RobotWebCamServer/WebCamService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WebCamService.wsdl" MetadataType="Wsdl" ID="801af66e-9248-424e-b927-de6202c89a3e" SourceId="1" SourceUrl="http://localhost:8732/Design_Time_Addresses/RobotWebCamServer/WebCamService/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="f40656b9-3f45-4640-a057-606b435d7f79" SourceId="1" SourceUrl="http://localhost:8732/Design_Time_Addresses/RobotWebCamServer/WebCamService/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="25e372f6-b094-455d-90e7-458c590c6a06" SourceId="1" SourceUrl="http://localhost:8732/Design_Time_Addresses/RobotWebCamServer/WebCamService/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="52bebba8-f896-468a-b009-7a5fafbcc96a" SourceId="1" SourceUrl="http://localhost:8732/Design_Time_Addresses/RobotWebCamServer/WebCamService/?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,481 @@
+.StaticSocialButtons {position:fixed; top:150px; left:10px; width:34px; z-index:1500; height:200px; top:28%;}
+.StaticSocialButtons .AButton {display:block; float:left; width:34px; height:34px; margin-bottom: 8px;}
+.StaticSocialButtons .AButton img {display:block;}
+.StaticSocialButtons .Facebook {background-image:url(http://www.manoto1.com/Content/Images/IconFacebook.png); width:34px; height:34px;}
+.StaticSocialButtons .Facebook:hover {background-image:url(http://www.manoto1.com/Content/Images/IconFacebookSelect.png); width:34px; height:34px;}
+.StaticSocialButtons .Google {background-image:url(http://www.manoto1.com/Content/Images/IconGoogle.png); width:34px; height:34px;}
+.StaticSocialButtons .Google:hover {background-image:url(http://www.manoto1.com/Content/Images/IconGoogleSelect.png); width:34px; height:34px;}
+.StaticSocialButtons .Twitter {background-image:url(http://www.manoto1.com/Content/Images/IconTwitter.png); width:34px; height:34px;}
+.StaticSocialButtons .Twitter:hover {background-image:url(http://www.manoto1.com/Content/Images/IconTwitterSelect.png); width:34px; height:34px;}
+.StaticSocialButtons .Youtube {background-image:url(http://www.manoto1.com/Content/Images/IconYoutube.png); width:34px; height:34px;}
+.StaticSocialButtons .Youtube:hover {background-image:url(http://www.manoto1.com/Content/Images/IconYoutubeSelect.png); width:34px; height:34px;}
+.StaticSocialButtons .Pinterest {background-image:url(http://www.manoto1.com/Content/Images/IconPinterest.png); width:34px; height:34px;}
+.StaticSocialButtons .Pinterest:hover {background-image:url(http://www.manoto1.com/Content/Images/IconPinterestSelect.png); width:34px; height:34px;}
+.StaticSocialButtons .Instagram {background-image:url(http://www.manoto1.com/Content/Images/IconInstagram.png); width:34px; height:34px;}
+.StaticSocialButtons .Instagram:hover {background-image:url(http://www.manoto1.com/Content/Images/IconInstagramSelect.png); width:34px; height:34px;}
+.StaticSocialButtons .SoundCloud {background-image:url(http://www.manoto1.com/Content/Images/IconSoundCloud.png); width:34px; height:34px;}
+.StaticSocialButtons .SoundCloud:hover {background-image:url(http://www.manoto1.com/Content/Images/IconSoundCloudSelect.png); width:34px; height:34px;}
+.StaticSocialButtons .addthis_32x32_style {display:block; float:left; position:relative; background-image:url(http://www.manoto1.com/Content/Images/IconMoreSocialNetWork.png);  width:34px; height:34px;}
+.StaticSocialButtons .addthis_32x32_style:hover {display:block; float:left; position:relative; background-image:url(http://www.manoto1.com/Content/Images/IconMoreSocialNetWorkSelect.png);  width:34px; height:34px;}
+.StaticSocialButtons .addthis_32x32_style .addthis_button_compact {display:block; float:right; width:34px; height:34px; }
+.addthis_toolbox.addthis_32x32_style span {display:none !important;}
+.StaticSocialButtons .addthis_32x32_style .at_a11y {display:none;}
+
+h1s{
+        width: 750px;
+        font-size: 100px;
+        margin: 125px auto;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0px 1px 1px #ddd,
+                     0px 2px 1px #d6d6d6,
+                     0px 3px 1px #ccc,
+                     0px 4px 1px #c5c5c5,
+                     0px 5px 1px #c1c1c1,
+                     0px 6px 1px #bbb,
+                     0px 7px 1px #777,
+                     0px 8px 3px rgba(100, 100, 100, 0.4),
+                     0px 9px 5px rgba(100, 100, 100, 0.1),
+                     0px 10px 7px rgba(100, 100, 100, 0.15),
+                     0px 11px 9px rgba(100, 100, 100, 0.2),
+                     0px 12px 11px rgba(100, 100, 100, 0.25),
+                     0px 13px 15px rgba(100, 100, 100, 0.3);
+    }
+	
+.login-right-fix {
+   position:fixed;
+   top:100%;
+   right:0;
+   height:30px;
+   z-index:100;
+   background: rgba(0,142,214,0.85);/*#008ED6;*/
+   color:white;
+   font-size:18px;
+   text-align: center;
+   border-top-left-radius:0px;
+   border-bottom-left-radius:8px;
+}
+.login-right-fix a:link,.login-right-fix a:visited {
+  color:#222;
+} 
+
+.scroll-top {
+   position:fixed;
+   bottom:0;
+   left:0;
+   z-index:1750;
+   font-size:24px;
+   /*background: #090909;rgba(0,142,14,0.8);*/
+}
+
+.scroll-top a,.scroll-top a:hover,.scroll-top li:hover{
+   border-top-right-radius:10px;
+   border-top-left-radius:10px;
+   background: #B3F4CF;
+}
+
+.containerflip{
+		/* How pronounced should the 3D effects be 
+		background: radial-gradient(#e0e0e0, #aaa);*/
+		perspective: 1000px;
+		-webkit-perspective: 1000px;
+		width:100%;
+		height:500px;
+		border-radius:6px;
+		position:relative;
+		}
+.box-front,
+		.box-back{
+ 		/* Enable 3D transforms */
+		transform-style: preserve-3d;
+		-webkit-transform-style: preserve-3d;
+		 backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		 width:97%;
+		height:100%;
+		position:absolute;
+		top:2%;
+		left:2%;
+		
+ 		/* Animate the transitions background:#476AF1;*/
+		transition:0.8s;
+		/* text-align:center;*/
+		color:#FFF;
+		}
+.box-back{
+ 		/* The back side is flipped 180 deg by default background-color:#7E0002;*/
+		transform:rotateY(180deg);
+		-webkit-transform:rotateY(180deg);
+		
+ 
+		}
+.containerflip:hover .box-front{
+		/* When the container is hovered, flip the front side and hide it .. */
+		transform:rotateY(180deg);
+		-webkit-transform:rotateY(180deg);
+		}
+.containerflip:hover .box-back{
+		/* .. at the same time flip the back side into visibility */
+		transform:rotateY(360deg);
+		-webkit-transform:rotateY(360deg);
+		/* Rounded Corners */
+	}
+.ta5 {
+	border: 2px solid #765942;
+	border-radius: 10px;
+	height: 100%;
+	width: 100%;
+	border-left: 5px solid #765942;
+	}
+.scrollbarsDemo {
+		height: 150px;
+		display: block;
+		overflow: auto;
+		border: solid 1px #ccc;
+		padding: 10px;
+}
+/* Let's get this party started */
+.scrollbarsDemo {
+		scrollbar-base-color: #C0C0C0;
+		scrollbar-base-color: #C0C0C0;
+		scrollbar-3dlight-color: #C0C0C0;
+		scrollbar-highlight-color: #C0C0C0;
+		scrollbar-track-color: #EBEBEB;
+		scrollbar-arrow-color: black;
+		scrollbar-shadow-color: #C0C0C0;
+		scrollbar-dark-shadow-color: #C0C0C0;
+}
+.scrollbarsDemo::-webkit-scrollbar {
+		width: 8px;
+}
+.scrollbarsDemo::-webkit-scrollbar-button {
+		background-color: rgba(0,136,204,0.8);
+}
+/* Track */
+.scrollbarsDemo::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 5px rgba(0,0,0,0.4);
+}
+/* Handle */
+.scrollbarsDemo::-webkit-scrollbar-thumb {
+		background: rgba(0,136,204,0.8);
+		border-radius:5px;
+		box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+		.scrollbarsDemo::-webkit-scrollbar-thumb:window-inactive {
+		background: rgba(0,136,204,0.4);
+}
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(50,254,255,.1);
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+
+.btn {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #219ab3;
+    color: #219ab3;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #219ab3;
+    outline: 0;
+    color: #000;
+    background-color: #219ab3;
+}
+
+#country-select {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 40px;
+   z-index:1500;
+	}
+
+/* rought form styles for when JS is disabled */
+
+#country-select form {
+	width: 40px;
+	padding: 0;
+	}
+
+#country-select select,
+#country-select input {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	}
+	
+/* JS-created definition list */
+
+.dropdown dd { position: relative; }
+
+.dropdown a {
+	text-decoration: none;
+	outline: 0;
+	font: 12px Arial, Helvetica, sans-serif;
+	display: block;
+	width: 35px;
+	overflow: hidden;
+	}
+
+.dropdown dt a {
+	background: #4DA9D8;
+	border: 1px solid #4DA9D8;
+	padding: 3px 10px 4px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	}
+
+	.dropdown dt a.active {
+		background: #4AA6D5;
+		-webkit-border-bottom-left-radius: 0;
+		-webkit-border-bottom-right-radius: 0;
+		-moz-border-radius-bottomleft: 0;
+		-moz-border-radius-bottomright: 0;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		border-bottom: 1px dotted #5A70CA;
+		-moz-box-shadow: 0 3px 7px rgba(0,0,0,.5);
+		-webkit-box-shadow: 0 3px 7px rgba(0,0,0,.5);
+		box-shadow: 0 3px 7px rgba(0,0,0,.5);
+		color: #fff;
+		}
+
+.dropdown dd ul {
+	background: #5A70CA;
+	border: 1px solid #5A70CA;
+	color: #C5C0B0;
+	display: none;
+	position: absolute;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	padding: 2px 0 5px 0;
+	list-style: none;
+	border-top: none;
+	margin: 0;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-moz-box-shadow: 0 3px 7px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 3px 7px rgba(0,0,0,.5);
+	box-shadow: 0 3px 7px rgba(0,0,0,.5);
+	}
+
+	.dropdown dd ul li a {
+		padding: 2px 10px;
+		}
+
+	.dropdown dd ul li a span,
+	.dropdown dt a span {
+		float: left;
+		width: 16px;
+		height: 11px;
+		margin: 2px 6px 0 0;
+		background-image: url(../images/flags.png);
+		background-repeat: no-repeat;
+		cursor: pointer;
+		}
+
+		.us a span { background-position: 0 0 }
+		.uk a span { background-position: -16px 0 }
+		.fr a span { background-position: -32px 0 }
+		.de a span { background-position: -48px 0 }
+		.nl a span { background-position: -64px 0 }
+
+	.dropdown dd ul li a em,
+	.dropdown dt a em {
+		font-style: normal;
+		float: left;
+		width: 100px;
+		cursor: pointer;
+		}
+
+	.dropdown dd ul li a em {
+		color: #dbc3b5;
+		}
+
+		.dropdown dd ul li a:hover { background-color: rgba(255,255,255,.1); }
+		.dropdown dd ul li a:hover em { color: #fff; }
+
+#highlight {display: none;}
+
+/*styles for the pre tag*/
+#layer {
+	font-family: monospace;
+	font-size: 12px;
+	line-height: 20px;
+	
+	border: 1px solid #ccc;
+	background: linear-gradient(white, white 19px, #ddd 19px, #ddd 20px);
+	background-size: 20px 20px;
+	
+	padding: 20px 30px;
+	
+	white-space: pre-wrap; /*to wrap words*/
+	word-wrap: break-word; /*IE 5.5+*/
+}
+
+/*colors*/
+.sc {color: brown;}
+.keyword {color: purple; font-weight: bold;}
+.string {color: darkgreen;}
+.comment {color: green; background: lightyellow;}
+.function {color: red;}
+
+
+@import url(http://fonts.googleapis.com/css?family=Fauna+One|Muli);
+#mainform{
+width:960px;
+margin:20px auto;
+padding-top:20px;
+font-family: 'Fauna One', serif;
+display:block;
+}
+h2{
+margin-left: 65px;
+text-shadow:1px 0px 3px gray;
+}
+h3{
+font-size:18px;
+text-align:center;
+text-shadow:1px 0px 3px gray;
+}
+
+b{
+font-size:18px;
+text-shadow:1px 0px 3px gray;
+}
+#popup{
+padding-top:80px;
+}
+.form{
+border-radius:2px;
+padding:10px 10px;
+box-shadow:0 0 15px;
+font-size:14px;
+font-weight:bold;
+width:350px;
+margin:20px 250px 0 15px;
+float:left;
+}
+input{
+width:100%;
+height:35px;
+margin-top:5px;
+border:1px solid #999;
+border-radius:3px;
+padding:5px;
+}
+input[type=button]{
+background-color:rgba(0, 142, 214, 0.85098);
+border:1px solid white;
+font-family: 'Fauna One', serif;
+font-Weight:bold;
+font-size:18px;
+color:white;
+width:49%;
+}
+textarea{
+width:100%;
+height:80px;
+margin-top:5px;
+border-radius:3px;
+padding:5px;
+resize:none;
+}
+#contactdiv{
+opacity:0.92;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+background: #000;
+display: none;
+}
+#logindiv{
+opacity:0.92;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+background: #000;
+display: none;
+}
+
+#login,#contact{
+width:400px;
+margin:0px;
+background-color:white;
+font-family: 'Fauna One', serif;
+position: relative;
+border: 7px solid rgba(0, 142, 214, 0.85);
+}
+.img{
+float: right;
+margin-top: -35px;
+margin-right: -17px;
+cursor: pointer;
+}
+#contact{
+left: 50%;
+top: 50%;
+margin-left:-210px;
+margin-top:-255px;
+}
+#login{
+left: 55%;
+top: 10%;
+}

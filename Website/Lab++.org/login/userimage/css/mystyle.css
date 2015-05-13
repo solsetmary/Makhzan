@@ -1,0 +1,54 @@
+
+body { background: url('../bg.png'); text-align:center;}
+
+.product_image {
+
+	width: 50px;
+	height: 70px;
+	margin: 0 auto;
+	display:block;
+	text-align:left;
+	position: relative;
+
+}
+
+img.myoverlay { position: absolute; left: 0; z-index: 100; }
+
+img.mythumbnail  { margin-top: 5px; }
+
+input{display:block; margin: 5px auto;}
+
+button, .mybutton{
+	width:156px;
+	padding:5px;
+	border:1px solid #cccccc;
+	border-radius: 5px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:11px;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+
+#myfile-uploader{
+	margin:0 auto;
+	width: 178px;
+	display:block;
+}
+.clear{
+	clear:both;
+}
+#mythumbnail{
+	float:left;
+}
+#mythumb_preview_holder{
+	float:left;
+	width:156px;
+	height:156px;
+	overflow:hidden;
+	margin-left:10px;
+}
+#myModal{
+	border: 1px solid #e1e1e1;
+	border-radius:10px;
+}
